@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>معرض الأعمال</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        .portfolio {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .portfolio-item {
+            background-color: white;
+            border-radius: 8px;
+            margin: 10px;
+            width: 30%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .portfolio-item img {
+            width: 100%;
+            height: auto;
+            border-bottom: 1px solid #ddd;
+        }
+        .portfolio-item h3 {
+            padding: 10px;
+            font-size: 18px;
+            color: #333;
+        }
+        .contact {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>معرض أعمالي</h1>
+        <p>مرحبًا! هنا تجد بعض من أعمالي وتصاميمي</p>
+    </header>
+
+    <section class="portfolio">
+        <div class="portfolio-item">
+            <img src="design1.jpg" alt="تصميم 1">
+            <h3>تصميم 1</h3>
+        </div>
+        <div class="portfolio-item">
+            <img src="design2.jpg" alt="تصميم 2">
+            <h3>تصميم 2</h3>
+        </div>
+        <div class="portfolio-item">
+            <img src="design3.jpg" alt="تصميم 3">
+            <h3>تصميم 3</h3>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>للتواصل</h2>
+        <p>البريد الإلكتروني: example@example.com</p>
+        <p>رابط LinkedIn: <a href="https://linkedin.com" style="color:white;">رابط</a></p>
+    </section>
+</body>
+</html>
